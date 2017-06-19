@@ -509,7 +509,7 @@ EXTRA_CFLAGS += -DCONFIG_LITTLE_ENDIAN -DCONFIG_PLATFORM_ARM_SUNxI -DCONFIG_IEEE
 ARCH := arm
 CROSS_COMPILE := arm-linux-gnueabihf-
 KVER  := 3.4.104
-KSRC:= $(HOME)/cubie2/sunxi/OpenVario/src/kernel
+KSRC:= $(HOME)/openvario/system/horOpenVario/src/kernel
 endif
 
 ifeq ($(CONFIG_PLATFORM_ARM_SUN6I), y)
